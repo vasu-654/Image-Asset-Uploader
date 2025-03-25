@@ -57,5 +57,6 @@ Develop a feature that allows users to upload and manage image assets efficientl
 - Implement undo/redo functionality for edits.
 - Provide more advanced editing options like filters and brightness adjustments.
 - Implement the functionailities properly.
+- Improve CSS.
 
 
