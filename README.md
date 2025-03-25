@@ -43,7 +43,7 @@ Develop a feature that allows users to upload and manage image assets efficientl
    npm install
 
 3. **Start the development server**
-   npm start
+   npm run dev
 
 
 ## 🖥️ Usage
