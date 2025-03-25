@@ -14,17 +14,21 @@ Develop a feature that allows users to upload and manage image assets efficientl
 
 ## 🛠️ Technology Stack
 - **Frontend**: React.js
-- **UI Libraries**: MUI, Bootstrap (as needed)
+- **UI Libraries**: MUI
 
 ## 📂 Project Structure
 ```
 📦 Image-Asset-Manager
  ┣ 📂 src
- ┃ ┣ 📂 components      # Reusable components
- ┃ ┣ 📂 pages           # Page-level components
- ┃ ┣ 📂 assets          # Static images/icons
- ┃ ┣ 📂 utils           # Helper functions
- ┃ ┗ 📜 App.js          # Main application file
+ ┃ ┣ 📂 assets                      # Static images/icons      
+ ┃ ┣ 📂 components                  # Reusable components
+ ┃   ┣ 📂 cropImage.js              # Reusable components 
+ ┃   ┣ 📂 ImageEditDrawer.jsx       # Reusable components
+ ┃   ┣ 📂 ImageUploadAndEdit.jsx    # Reusable components
+ ┃   ┣ 📂 ImageUploader.jsx         # Reusable components
+ ┃   ┣ 📂 MasonryGallery.jsx        # Reusable components
+ ┃ ┣ 📂 styles           # functions
+ ┃ ┗ 📜 App.jsx          # Main application file
  ┣ 📜 package.json      # Dependencies & scripts
  ┣ 📜 README.md         # Project documentation
 ┗ 📜 .gitignore         # Files to ignore in Git
